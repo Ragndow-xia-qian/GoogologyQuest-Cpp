@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Module\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Module\maininterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\ui_MainInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Header\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Header\maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Debug\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Release\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_MinSizeRel\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_RelWithDebInfo\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\640a636557700334f135f49a4d8ebb38\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\maininterface.ui" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_Debug.stamp" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_Release.stamp" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AF680BFF-151C-3ED3-BA4E-7EC80AD1A3E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{318CD54E-C006-357D-BE88-B067A8560244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{074CCDB5-C489-3396-989C-036A9A36320F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

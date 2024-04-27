@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{069ACD91-0010-392D-961A-C936C7EB1003}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GoogologyQuest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GoogologyQuest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GoogologyQuest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GoogologyQuest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GoogologyQuest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GoogologyQuest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GoogologyQuest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GoogologyQuest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GoogologyQuest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtCore" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtGui" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtANGLE" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtWidgets"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Debug;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Debug;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target GoogologyQuest</Message>
+      <Command>setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E cmake_autogen "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/GoogologyQuest_autogen.dir/AutogenInfo.json" Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/GoogologyQuest_autogen/autouic_Debug.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>	Creating directory: log					</Message>
+      <Command>setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/Sources/Resources" "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug/log"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/plugins/platforms/qwindows.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Core.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Gui.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Widgets.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Widgetsd.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Guid.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/Debug/GoogologyQuest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Debug/GoogologyQuest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtCore" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtGui" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtANGLE" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtWidgets"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Release;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Release;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target GoogologyQuest</Message>
+      <Command>setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E cmake_autogen "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/GoogologyQuest_autogen.dir/AutogenInfo.json" Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/GoogologyQuest_autogen/autouic_Release.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>	Creating directory: log					</Message>
+      <Command>setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/Sources/Resources" "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release/log"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/plugins/platforms/qwindows.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Core.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Gui.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Widgets.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/Release/GoogologyQuest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/Release/GoogologyQuest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtCore" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtGui" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtANGLE" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtWidgets"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_MinSizeRel;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_MinSizeRel;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target GoogologyQuest</Message>
+      <Command>setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E cmake_autogen "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/GoogologyQuest_autogen.dir/AutogenInfo.json" MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/GoogologyQuest_autogen/autouic_MinSizeRel.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>	Creating directory: log					</Message>
+      <Command>setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/Sources/Resources" "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel/log"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/plugins/platforms/qwindows.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Core.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Gui.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Widgets.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/MinSizeRel/GoogologyQuest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/MinSizeRel/GoogologyQuest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtCore" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/./mkspecs/win32-msvc" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtGui" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtANGLE" /external:I "D:/Qt5/Qt5.13.2/5.13.2/msvc2017_64/include/QtWidgets"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_RelWithDebInfo;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_RelWithDebInfo;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target GoogologyQuest</Message>
+      <Command>setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E cmake_autogen "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/GoogologyQuest_autogen.dir/AutogenInfo.json" RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/GoogologyQuest_autogen/autouic_RelWithDebInfo.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>	Creating directory: log					</Message>
+      <Command>setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/Sources/Resources" "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo/log"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/plugins/platforms/qwindows.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo/plugins/platforms/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Core.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Gui.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64/bin/Qt5Widgets.dll "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/RelWithDebInfo/GoogologyQuest.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/bin/RelWithDebInfo/GoogologyQuest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\640a636557700334f135f49a4d8ebb38\autouic_(CONFIG).stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\maininterface.ui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_Debug.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\maininterface.ui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_Release.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\maininterface.ui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_MinSizeRel.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\maininterface.ui;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_RelWithDebInfo.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe "-SD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest" "-BD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release" --check-stamp-file "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\cmake.verify_globs;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe "-SD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest" "-BD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release" --check-stamp-file "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\cmake.verify_globs;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe "-SD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest" "-BD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release" --check-stamp-file "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\cmake.verify_globs;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe "-SD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest" "-BD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release" --check-stamp-file "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCCompilerABI.c;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseArguments.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystem.cmake.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\CLion\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\3.26.4\CMakeSystem.cmake;D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\cmake.verify_globs;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt5\Qt5.13.2\5.13.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\maininterface.ui">
+    </None>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\ui_MainInterface.h" />
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Header\Button.h" />
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Header\maininterface.h" />
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Module\Button.cpp" />
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Module\maininterface.cpp" />
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\main.cpp" />
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Debug\Sources\Forms\ui_maininterface.h" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_Debug.stamp">
+    </None>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_Release\Sources\Forms\ui_maininterface.h" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_Release.stamp">
+    </None>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_MinSizeRel\Sources\Forms\ui_maininterface.h" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_MinSizeRel.stamp">
+    </None>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\include_RelWithDebInfo\Sources\Forms\ui_maininterface.h" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\GoogologyQuest_autogen\autouic_RelWithDebInfo.stamp">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\ZERO_CHECK.vcxproj">
+      <Project>{9BEB2D1A-39B1-3037-9028-E3418D32201B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

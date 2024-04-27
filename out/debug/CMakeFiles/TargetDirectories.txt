@@ -1,0 +1,3 @@
+D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/debug/CMakeFiles/GoogologyQuest.dir
+D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/debug/CMakeFiles/ALL_BUILD.dir
+D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/debug/CMakeFiles/ZERO_CHECK.dir

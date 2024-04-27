@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Module\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Module\maininterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\ui_MainInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Header\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Header\maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\include_Debug\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\include_Release\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\include_MinSizeRel\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\include_RelWithDebInfo\Sources\Forms\ui_maininterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\CMakeFiles\a2b20a764312e7aad992122206e97623\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\Sources\Forms\maininterface.ui" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\autouic_Debug.stamp" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\autouic_Release.stamp" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\debug\GoogologyQuest_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{43838CD4-E980-36C7-9472-965BE7C61347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0BB7D8F6-4F7A-3E98-9F7B-52303B3C742E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8CC58909-7C7D-3C38-BCDF-7AB1C2945A84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

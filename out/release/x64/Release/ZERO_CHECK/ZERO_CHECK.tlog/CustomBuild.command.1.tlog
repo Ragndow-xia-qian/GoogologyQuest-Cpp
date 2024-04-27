@@ -1,0 +1,10 @@
+^D:\CODE\CPP\QT5 PROJECTS\GAME_GOOGOLOGYQUEST\OUT\RELEASE\CMAKEFILES\11B2789A0DE1038BBFCD92E3C8AA01D8\GENERATE.STAMP.RULE
+setlocal
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe "-SD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest" "-BD:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Code/cpp/Qt5 Projects/Game_GoogologyQuest/out/release/GoogologyQuest.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

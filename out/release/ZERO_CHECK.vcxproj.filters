@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\cpp\Qt5 Projects\Game_GoogologyQuest\out\release\CMakeFiles\11b2789a0de1038bbfcd92e3c8aa01d8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AF680BFF-151C-3ED3-BA4E-7EC80AD1A3E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
