@@ -73,7 +73,7 @@ namespace Interface {
     }
 
     void MainInterface::closeEvent(QCloseEvent *event) {
-        if (finished || QMessageBox::question(this, "提示", "你确定要关闭窗口吗") == QMessageBox::Yes) {
+        if (finished || QMessageBox::question(this, "Info", "Are you sure to exit?") == QMessageBox::Yes) {
             event->accept();
             return;
         }
